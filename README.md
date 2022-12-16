@@ -1,4 +1,5 @@
 # SQL Challenge
+# Questions answered in MySQL
 
 The database contains two tables, store_revenue and marketing_data.  Refer to the two CSV
 files, store_revenue and marketing_data to understand how these tables have been created.
