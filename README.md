@@ -1,29 +1,6 @@
 # SQL Challenge
 ### Questions answered using MySQL
 
-The database contains two tables, store_revenue and marketing_data.  Refer to the two CSV
-files, store_revenue and marketing_data to understand how these tables have been created.
-
-store_revenue contains revenue by date, brand ID, and location:
-
- >  create table store_revenue (
- >     id int not null primary key auto_increment,
- >    date datetime,
- >    brand_id int,
- >    store_location varchar(250),
- >    revenue float  
- >  );
-
-marketing_data contains ad impression and click data by date and location:
-
-> create table marketing_data (
->  id int not null primary key auto_increment,
->  date datetime,
->  geo varchar(2),
->  impressions float,
->  clicks float
-> );
-
 ### Please provide a SQL statement under each question.
 
 * Question #0 (Already done for you as an example)
